@@ -1,2 +1,4 @@
-export * from "./get-error-code";
-export * from "./get-error-message";
+import ParsableError from './ParsableError';
+
+export const getErrorCode = ParsableError.parseErrorCode;
+export const getErrorMessage = ParsableError.parseErrorMessage;
