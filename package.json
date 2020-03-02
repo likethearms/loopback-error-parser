@@ -2,7 +2,9 @@
   "name": "loopback-error-parser",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "typings": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "author": "Henrik Salmela",
   "scripts": {
     "build": "rm -rf lib && tsc -p ./tsconfig.json && npm run create-typings",
     "prepublish": "npm run build",
@@ -13,7 +15,6 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.8.6",
